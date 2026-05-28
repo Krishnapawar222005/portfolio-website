@@ -21,7 +21,7 @@ function Contact() {
     try {
 
       const response = await fetch(
-        "http://localhost:5000/api/contact",
+        "https://portfolio-website-l8m7.onrender.com",
         {
           method: "POST",
           headers: {
